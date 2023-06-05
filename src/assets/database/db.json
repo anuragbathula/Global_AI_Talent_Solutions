@@ -1,0 +1,58 @@
+{
+  "technologies": [
+    {
+      "title": "Artificial Intelligence",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "videoUrl": "https://www.apexsystems.com/sites/default/files/videos/AWR-value-reimagined-website-header-v2-updated.mp4"
+    },
+    {
+      "title": "Data Analytics",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "videoUrl": "https://www.apexsystems.com/sites/default/files/videos/AWR-value-reimagined-website-header-v2-updated.mp4"
+    },
+    {
+      "title": "Cyber Security",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "videoUrl": "https://www.apexsystems.com/sites/default/files/videos/AWR-value-reimagined-website-header-v2-updated.mp4"
+    },
+    {
+      "title": "Cloud",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "videoUrl": "https://www.apexsystems.com/sites/default/files/videos/AWR-value-reimagined-website-header-v2-updated.mp4"
+    }
+  ],
+  "aboutContent": [
+    {
+      "title": "Delivering Value and Innovation",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "imageUrl": "https://www.apexsystems.com/sites/default/files/media-images/BrandStatement_ContentSide.jpg"
+    },
+    {
+      "title": "Diversity, Equity, and Inclusion",
+      "description": "Our emergent Diversity, Equity, and Inclusion (DEI) goals are established for progression and empower the Values we bring as a world-class technology services firm.",
+      "imageUrl": "https://www.apexsystems.com/sites/default/files/media-images/AbouApex_Services_ContentSide.jpg"
+    },
+    {
+      "title": "Corporate Social Responsibility",
+      "description": "We are invested in creating long-term partnerships that strengthen communities, help tackle social challenges, and solve complex problems.  We encourage employees to explore their passions, business skills, and expertise to make meaningful contributions to the world around them. Click here to learn more about our corporate social responsibility.",
+      "imageUrl": "https://www.apexsystems.com/sites/default/files/media-images/CSR_ContentSide.jpg"
+    }
+  ],
+  "services": [
+    {
+      "title": "Salesforce",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "imageUrl": "https://www.apexsystems.com/sites/default/files/media-images/BrandStatement_ContentSide.jpg"
+    },
+    {
+      "title": "Mulesoft",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "imageUrl": "https://www.apexsystems.com/sites/default/files/media-images/BrandStatement_ContentSide.jpg"
+    },
+    {
+      "title": "Mulesoft",
+      "description": "Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.",
+      "imageUrl": "https://www.apexsystems.com/sites/default/files/media-images/BrandStatement_ContentSide.jpg"
+    }
+  ]
+}

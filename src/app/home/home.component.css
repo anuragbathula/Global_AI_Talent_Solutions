@@ -1,0 +1,111 @@
+.banner {
+  height: 60vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-image: url(/assets/images/home_banner.png);
+  background-color: #0a192f;
+  background-size: 100% 100%;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-title {
+  font-weight: bolder;
+  font-size: 50px;
+}
+.banner-sub-title {
+  font-size: 30px;
+}
+.main-content-image {
+  background-image: url(https://insightglobal.com/wp-content/uploads/2021/12/IG-Graphic-Together-Anything-Is-Possible.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  max-width: 60rem;
+  align-items: center;
+  display: flex;
+}
+.main-sub-content {
+  max-width: 45rem;
+  margin-bottom: 1rem;
+  line-height: 150%;
+  color: #0a192f;
+  font-size: 22px;
+  margin: 0 auto;
+}
+.overlay-video {
+  position: absolute;
+  top: 3rem;
+  z-index: 1;
+  align-items: center;
+}
+.container-fluid {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+.container-fluid video {
+  position: relative;
+  z-index: 0;
+  background-color: black;
+  background-size: cover;
+}
+.video-hero-player {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 200%;
+  color: #fff;
+  font-size: 2rem;
+}
+@media (max-width: 750px) {
+  .container-fluid {
+    height: 60vh;
+  }
+  p {
+    font-size: 15px;
+  }
+  .overlay-video {
+    top: 1rem;
+  }
+  .banner-content {
+    width: 70%;
+  }
+  .banner-title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .banner-sub-title {
+    font-size: 20px;
+  }
+  .main-content-image {
+    max-width: 50rem;
+  }
+  .main-sub-content {
+    max-width: 40rem;
+    margin-bottom: 1rem;
+    line-height: 150%;
+    color: #737373;
+    font-size: 15px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 750px) and (max-width: 1024px) {
+  p {
+    font-size: 23px;
+  }
+  .overlay-video {
+    top: 2rem;
+  }
+}

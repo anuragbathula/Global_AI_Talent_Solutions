@@ -1,0 +1,25 @@
+<div class="row banner">
+    <img src="/assets/images/consultant_banner.png" class="img" width="100%" class="img-responsive">
+</div>
+<div class="mt-5 row text-center">
+    <span class="mt-4 main-content">We are a staffing company dedicated to empowering people. We relentlessly pursue opportunities for others because when we all work together, anything is possible.</span>
+</div>
+<div class="mt-5 consultant-image">
+    <div class="consultant-image-content">
+    <h2 class="ms-5 consultant-image-title">Our consultants are expert in all technologies 
+        have  great experiencer in delivering end-to-end solutions</h2>
+</div>
+</div>
+<div class="container">
+    <div *ngFor = "let service of services">
+        <div class="mt-5 row field-item">
+            <div class="col-lg-6 content-side">
+                <h2 class="subheading text-center mt-5">{{service.title}}</h2>
+                <p>Global AI Talent Solutions is a world-class technology services business that incorporates industry insights and experience to deliver solutions that fulfill our clients’ digital visions.  We use our unique deployment model to build qualified, industry specialized fit-for-purpose teams combined with proven solutions and service models to achieve results.  Our agility and obsession with providing value enables us to support an ever evolving digital world.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="{{service.imageUrl}}" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>

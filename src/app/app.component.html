@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand ms-5 text-light" href="#"><h4 class="text-danger">Consultancy</h4></a>
+  <button class="navbar-toggler me-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav  ms-auto me-5">
+      <li class="nav-item active">
+        <a class="nav-link text-light" href="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" [routerLink]="['consultants']" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" [routerLink]="['about']" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" [routerLink]="['careers']" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Career</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" [routerLink]="['contact']" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div>
+<router-outlet></router-outlet>
+</div>
+<footer>
+<hr>
+<div class="mt-5 row text-center">
+    <div class="social">
+<a class="ms-2 social" href="" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+<a class="ms-3 social" href="" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+<a class="ms-3 social" href="" target="_blank"><i class="fa fa-2x fa-youtube"></i></a>
+<a class="ms-3 social" href="" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
+<a class="ms-3 social" href="" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+</div></div>
+<div class="container">
+  <div class="footerContent mb-5">
+    <p>Global AI Talent Solutions is an equal opportunity employer. We do not discriminate or allow discrimination on the basis of race, color, religion, creed, sex (including pregnancy, childbirth, breastfeeding, or related medical conditions), age, sexual orientation, gender identity, national origin, ancestry, citizenship, genetic information, registered domestic partner status, marital status, disability, status as a crime victim, protected veteran status, political affiliation, union membership, or any other characteristic protected by law. Global AI Talent Solutions will consider qualified applicants with criminal histories in a manner consistent with the requirements of applicable law. </p>
+  </div>
+</div>
+</footer>

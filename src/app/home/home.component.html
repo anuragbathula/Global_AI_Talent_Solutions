@@ -1,0 +1,36 @@
+<div class="banner">
+    <div class="banner-content">
+    <h2 class="ms-5 banner-title">Value Reimagined</h2>
+    <h3 class="ms-5 banner-sub-title">World-Class Technology Solutions for Your Most Ambitious Digital Goals</h3>
+</div>
+</div>
+<div class="mt-5 main-content">
+    <div class="row main-content-image text-center">
+    <h1 class="mt-5">TOGETHER ANYTHING IS POSSIBLE</h1>
+    <span class="mt-4 mb-5 main-sub-content">We are a staffing company dedicated to empowering people. We relentlessly pursue opportunities for others because when we all work together, anything is possible.</span>
+</div>
+</div>
+<div *ngFor = "let technology of technologies">
+<div class="mt-5 row text-center">
+<h1>{{technology.title}}</h1>
+</div>
+<div class="row">
+    <div class="col-md-12">
+      <div class="container-fluid embed-responsive embed-responsive-1by1 m-0 p-0">
+            <video class="video-hero-player" autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto">
+              <source src="{{technology.videoUrl}}" data-src="{{technology.videoUrl}}" type="video/mp4">
+              <!-- Your browser does not support HTML5 video. -->
+            </video>
+          <div class="ms-5 me-5 overlay-video">
+            <p>{{technology.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mt-5 row">
+    <img src="/assets/images/staffing.png" class="img" width="100%" class="img-responsive">
+</div>
+<div class="row">
+    <span class="mt-4 mb-5 text-center main-sub-content">We are a staffing company dedicated to empowering people. We relentlessly pursue opportunities for others because when we all work together, anything is possible.</span>
+</div>

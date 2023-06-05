@@ -1,0 +1,89 @@
+<div class="banner">
+    <h2 class="ms-5 banner-title">WE’RE A COMPANY THAT CARES FOR OTHERS</h2>
+</div>
+<div class="container">
+<div class="mt-5 row text-center">
+    <h1>Our Story</h1>
+    <hr>
+    <span class="story">We’ve always done things differently. Born from the idea that staffing could be less about financial gain and 
+        corporate in-roads, and more about genuine relationships and meaningful impact, the company was founded as 
+        an entrepreneurial start-up in 2001. Since then, we’ve grown exponentially, and in a number of ways.</span>
+    <span class="story">Today, we are a purpose-driven company that’s dedicated to empowering people through the value of opportunity. 
+        We give it our all to put people to work.</span>
+</div>
+<div *ngFor = "let content of aboutContent">
+    <div class="mt-5 row field-item">
+        <div class="col-lg-6 content-side">
+            <h2 class="subheading text-center mt-5">{{content.title}}</h2>
+            <p>{{content.description}}</p>
+        </div>
+        <div class="col-lg-6">
+            <img class="content-image" src="{{content.imageUrl}}" alt=""/>
+        </div>
+    </div>
+</div>
+</div>
+<div class="mt-5 row text-center working-with">
+    <h1 class="mt-5">Working with Global AI Talent Solutions</h1>
+    <span class="working-with-content m-5">One big positive for me is Global AI Talent Solutions ensures there is a continuous dialogue with the client and wants to make sure the candidates are qualified and progressing as expected…. they are professionals with a 
+        strong customer focus. Global AI Talent Solutions Account Managers go the extra mile to ensure qualified candidates are presented and are always keeping in 
+        touch. That is important in this business. "</span> 
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-centered">
+
+			<div id="carousel" class="carousel slide" data-bs-ride="carousel" data-type="multi" data-interval="2500">
+				<div class="carousel-inner">
+					<div class="carousel-item item active">
+						<div class="carousel-col">
+							<div class="nbs-flexisel-item" ><img src="https://www.apexsystems.com/sites/default/files/media-images/AWS.png" width="100%" height="100%" title="Pentiah Live">
+                            </div>
+						</div>
+					</div>
+					<div class="carousel-item item">
+						<div class="carousel-col">
+							<div class="nbs-flexisel-item" ><img src="https://www.apexsystems.com/sites/default/files/media-images/ServiceNow%20Logo_Larger.png" width="100%" height="100%" title="Pentiah Live">
+                            </div>
+						</div>
+					</div>
+					<div class="carousel-item item">
+						<div class="carousel-col">
+							<div class="nbs-flexisel-item" ><img src="	https://www.apexsystems.com/sites/default/files/media-images/infor.png" width="100%" height="100%" title="Pentiah Live">
+                            </div>
+						</div>
+					</div>
+					<div class="carousel-item item">
+						<div class="carousel-col">
+							<div class="nbs-flexisel-item" ><img src="https://www.apexsystems.com/sites/default/files/media-images/ServiceNow%20Logo_Larger.png" width="100%" height="100%" title="Pentiah Live">
+                            </div>
+						</div>
+					</div>
+					<div class="carousel-item item">
+						<div class="carousel-col">
+							<div class="nbs-flexisel-item" ><img src="https://www.apexsystems.com/sites/default/files/media-images/ServiceNow%20Logo_Larger.png" width="100%" height="100%" title="Pentiah Live">
+                            </div>
+						</div>
+					</div>
+                    <div class="carousel-item item">
+						<div class="carousel-col">
+							<div class="nbs-flexisel-item" ><img src="https://www.apexsystems.com/sites/default/files/media-images/ServiceNow%20Logo_Larger.png" width="100%" height="100%" title="Pentiah Live">
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+			</div>
+
+		</div>
+	</div>
+</div>
